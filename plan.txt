@@ -1,0 +1,19 @@
+MVP:
+
+
+
+Total scales to show:
+    Scale 1: The Minor Pentatonic Scale.
+    Scale 2: The Blues Scale.
+    Scale 3: The Natural Minor Scale or the Aeolian Mode.
+    Scale 4: The Major Scale.
+    Scale 5: The Dorian Mode.
+    Scale 6: The Mixolydian Mode.
+
+Features:
+    indicate that, for instance, Eb = D#
+    colors for degree
+    display degrees
+    zoom in on hover
+    change display #/b relative to scale
+    display intervals of scales

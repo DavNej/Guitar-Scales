@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta lang="en">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Guitare scales</title>
+
+</head>
+
+<body>
+
+    <header>This is header</header>
+
+    <div class="content">
+        <div id="guitar-holder">
+            <div id="localisation"></div>
+            <div id="guitar-handle">
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div id="options-holder">
+            <div class="option">
+                <p>Pitch</p>
+                <select name="pitch" id="pitches"></select>
+            </div>
+            <div class="option">
+                <p>Accidental</p>
+                <select name="accidental" id="accidentals">
+                    <option value="">-</option>
+                    <option value="#">#</option>
+                    <option value="b">&#9837;</option>
+                </select>
+            </div>
+            <div class="option">
+                <p>Scale</p>
+                <select name="scale" id="scales"></select>
+            </div>
+            <button onclick="generateScale()">Go!</button>
+            <button onclick="switchDisplay(displayMode)">Switch display # / &#9837;</button>
+
+        </div>
+    </div>
+
+
+    <div id="test"></div>
+
+    <footer>This is footer</footer>
+
+    <script src="./js/lib/jquery-3.2.0.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/newway.js"></script>
+
+</body>
+
+
+</html>
