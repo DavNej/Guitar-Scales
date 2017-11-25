@@ -24,11 +24,12 @@
             </div>
         </div>
     </div>
+
     <div class="content">
         <div id="options-holder">
             <div class="option">
-                <p>Pitch</p>
-                <select name="pitch" id="pitches"></select>
+                <p>Note</p>
+                <select name="note" id="notes"></select>
             </div>
             <div class="option">
                 <p>Accidental</p>
@@ -42,8 +43,12 @@
                 <p>Scale</p>
                 <select name="scale" id="scales"></select>
             </div>
-            <button onclick="generateScale()">Go!</button>
-            <button onclick="switchDisplay(displayMode)">Switch display # / &#9837;</button>
+            <!-- <div class="option">
+                <p>Arpeggios</p>
+                <select name="arpeggio" id="arpeggios"></select>
+            </div> -->
+            <button onclick="app.go()">Go!</button>
+            <button onclick="app.switchDisplay()">Switch display # / &#9837;</button>
 
         </div>
     </div>
@@ -54,8 +59,10 @@
     <footer>This is footer</footer>
 
     <script src="./js/lib/jquery-3.2.0.min.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/struct-UI.js"></script>
+    <script src="./js/struct.js"></script>
     <script src="./js/index.js"></script>
-    <script src="./js/newway.js"></script>
 
 </body>
 

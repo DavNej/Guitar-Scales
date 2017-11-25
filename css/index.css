@@ -97,6 +97,7 @@ footer {
     box-sizing: border-box;
     border-top: 1px solid black;
     text-align: center;
+    width: 100%;
 }
 .fret .string:nth-of-type(1){
     border: none;
@@ -163,9 +164,9 @@ footer {
 }
 
 /* dynamic classes */
-.fundamental{
+/* .root-note{
     background-color: red;
-}
+} */
 
 .hidden{
     opacity: 0;
